@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    transition: padding 0.5s;
+    z-index: 999;
+}
+
+.shrink {
+    padding: 1px 20px;
+}
+
+.content {
+    margin-top: 70px;
+    padding: 20px;
+}
