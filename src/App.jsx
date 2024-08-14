@@ -17,9 +17,10 @@ import Navbar from './Components/Navbar/Navbar';
 
 
 // Importing Router components:
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider} from 'react-router-dom'
 
-const routing = createBrowserRouter([
+
+const routing = createHashRouter([
   {element: <Layout />, path:"", children:[
     {index:true, element: <Home />},
     {path:"/about", element:<About />},
